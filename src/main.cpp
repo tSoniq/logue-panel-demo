@@ -1,27 +1,11 @@
-/** osc5 main.
- *
- *  Copyright (c) 2021-2022 tSoniq. All Rights Reserved.
+/** Logue Front Panel Control Demo and Examples.
  */
 
 #include "osc_api.h"
 #include "userosc.h"
-
-
-// #pragma GCC diagnostic error "-Wall"
-// #pragma GCC diagnostic error "-Wextra"
-// #pragma GCC diagnostic error "-Wpedantic"
-// #pragma GCC diagnostic error "-Wimplicit"
-// #pragma GCC diagnostic error "-Wdouble-promotion"
-// #pragma GCC diagnostic error "-Wconversion"
-// #pragma GCC diagnostic error "-Wfloat-conversion"
-// #pragma GCC diagnostic error "-Wsign-conversion"
-
-
 #include "logue_panel.h"
 #include "logue_voiceid.h"
 #include "demo_oscillator.h"
-
-
 
 
 
