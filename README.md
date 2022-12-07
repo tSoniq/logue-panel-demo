@@ -28,15 +28,14 @@ The demo's front panel control usage is:
 The LFO modulation intensity via shift-shape is independent of the Prologue or Minilogue LFO knob,
 and can be used regardless of the LFO destination.
 
-The demo code is very simplistic and it is possible to do much more than is implemented in the
-code, such as modulation based on the filter envelope or alternative LFO waveforms. See the
-code in main.cpp for examples on using the panel interface, and logue_panel.h for a set of
-functions that provide access to panel values.
+The demo code is very simplistic and it is possible to do much more than is currently implemented,
+such as modulation based on the filter envelope or alternative LFO waveforms. See main.cpp for
+examples on using the panel interface, and logue_panel.h for a set of functions that provide
+access to panel values.
 
 Note that not all front panel controls are available, and those that are found may not be in a
-convenient form (a good example being the MIDI velocity information, which is only available
-after it has been modified by the 'EG Velocity' or 'AMP Velocity' settings).
-
+convenient form (a good example being the MIDI velocity information, which before it arrives in
+the oscillator unit processor has been modified by the 'EG Velocity' or 'AMP Velocity' settings).
 
 
 ## Source Files
@@ -57,9 +56,9 @@ The following pre-processor defines are needed to configure the build:
     PLATFORM_KORG_PROLOGUE              Set non-zero if this is a prologue build
     PLATFORM_KORG_MINILOGUE_XD          Set non-zero if this is a minilogue build
 
-If neither is defined, no panel support will function and neutral stubs are provided for all panel functions.
+If neither is defined, no panel support will function and neutral stubs are provided for the panel methods.
 The NTS1 builds of the demo oscillator rely on this, and will function exactly as the Prologue or Minilogue -
-only without the front panel controls.
+only without the front panel control access.
 
 The code also relies on CPU specific pre-processor defines that are included in the standard
 Logue SDK makefiles.
