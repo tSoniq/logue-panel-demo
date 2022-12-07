@@ -70,11 +70,11 @@ Logue SDK makefiles.
 
 To build the demo:
 
-1. edit src/project.mk to set the path to the directory containing the (Logue SDK)[https://github.com/korginc/logue-sdk]
+1. edit src/project.mk to set the path to the directory containing the [Logue SDK](https://github.com/korginc/logue-sdk)
 2. make clean; make
 
 
 
 ## Pre-built Binaries
 
-Pre-compiled binaries for the Prologue and Minilogue XD can be found in the units folder or (downloaded directly)[https://github.com/tSoniq/logue-panel-demo/blob/main/units/panel-demo.zip].
+Pre-compiled binaries for the Prologue and Minilogue XD can be found in the units folder or [downloaded directly](https://github.com/tSoniq/logue-panel-demo/blob/main/units/panel-demo.zip).
