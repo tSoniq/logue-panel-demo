@@ -77,4 +77,4 @@ To build the demo:
 
 ## Pre-built Binaries
 
-Pre-compiled binaries for the Prologue and Minilogue XD can be found in the units folder.
+Pre-compiled binaries for the Prologue and Minilogue XD can be found in the units folder or (downloaded directly)[https://github.com/tSoniq/logue-panel-demo/blob/main/units/panel-demo.zip].
